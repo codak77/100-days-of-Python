@@ -11,7 +11,7 @@ bill = 0
 # Mbill = 20
 # Lbill = 25
 if size == "S":
-    bill = 15
+    bill += 15
     # if add_pepperoni == "Y":
     #     bill += 2
         # if extra_cheese == "Y":
@@ -20,7 +20,7 @@ if size == "S":
         # else:
         #     print(f"Your final bill is: ${bill}.")
 elif size == "M":
-    bill = 20
+    bill += 20
     # if add_pepperoni == "Y":
     #     bill += 3
         # if extra_cheese == "Y":
@@ -29,7 +29,7 @@ elif size == "M":
         # else:
         #     print(f"Your final bill is: ${bill}.")
 else:
-    bill = 25
+    bill += 25
     # if add_pepperoni == "Y":
     #     bill += 3
         # if extra_cheese == "Y":
